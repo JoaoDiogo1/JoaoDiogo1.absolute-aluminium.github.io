@@ -52,7 +52,6 @@ footer a:hover {
 }
 
 .footer-copy {
-  
   grid-column: 1/-1;
   margin-top: 40px;
   margin-left: auto;
@@ -62,10 +61,21 @@ footer a:hover {
 
 @media (max-width: 800px) {
 
+  .footer-informacoes {
+    display: none;
+  }
+  .footer-copy {
+    grid-column: 1/-1;
+    margin-top: 40px;
+    font-size: 12px;
+  }
   .footer {
     grid-auto-columns: 1fr 1fr;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .footer h3{
+    font-size: 24px;
   }
 }
 
